@@ -1,0 +1,3 @@
+files: ./{config,spec,src}/**/*.cr
+# run: AMBER_ENV=test crystal tool format && AMBER_ENV=test crystal spec
+run: AMBER_ENV=test crystal spec
