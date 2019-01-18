@@ -1,28 +1,30 @@
 module PublicSuffix
   LIST = parse_dat_file
 
+  def self.embedded_dat_file
+    {{ run("./read_list_file.cr").stringify }}
+  end
+
   def self.parse_dat_file : Array(Rule)
     # time = Time.monotonic
 
     rules = Array(Rule).new
-    File.open(__DIR__ + "/../../public_suffix_list.dat") do |f|
-      while (str = f.gets)
-        str = str.gsub(/\s|(?:\/\/).*?$/, "")
-        next if str.blank?
+    embedded_dat_file.each_line do |str|
+      str = str.gsub(/\s|(?:\/\/).*?$/, "")
+      next if str.blank?
 
-        wildcard = false
-        exception = false
-        if str =~ /^!(.*?)$/
-          str = $1
-          exception = true
-        end
-        if str =~ /^\*\.(.*?)$/
-          str = $1
-          wildcard = true
-        end
-
-        rules << Rule.new(str.split(".").reverse, wildcard, exception)
+      wildcard = false
+      exception = false
+      if str =~ /^!(.*?)$/
+        str = $1
+        exception = true
       end
+      if str =~ /^\*\.(.*?)$/
+        str = $1
+        wildcard = true
+      end
+
+      rules << Rule.new(str.split(".").reverse, wildcard, exception)
     end
 
     # puts "Parsed dat file in #{(Time.monotonic - time).milliseconds} ms"
