@@ -1,12 +1,10 @@
 module PublicSuffix
   LIST = parse_dat_file
 
-  def self.embedded_dat_file
-    {{ run("./read_list_file.cr").stringify }}
-  end
-
   def self.parse_dat_file : Array(Rule)
-    # time = Time.monotonic
+    # start_time = Time.monotonic
+
+    embedded_dat_file = {{ read_file(__DIR__ + "/../../public_suffix_list.dat") }}
 
     rules = Array(Rule).new
     embedded_dat_file.each_line do |str|
@@ -27,7 +25,7 @@ module PublicSuffix
       rules << Rule.new(str.split(".").reverse, wildcard, exception)
     end
 
-    # puts "Parsed dat file in #{(Time.monotonic - time).milliseconds} ms"
+    # puts "Parsed dat file in #{(Time.monotonic - start_time).milliseconds} ms"
 
     rules
   end

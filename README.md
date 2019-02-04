@@ -8,6 +8,8 @@
 
 The API, README and specs are inspired by [publicsuffix-ruby](https://github.com/weppos/publicsuffix-ruby), but the code itself is all new, and the gem and shard are not otherwise related in any way.
 
+Note that the public suffix dat file is embedded at compile time and parsed into a constant on startup. This will increase the size on disk, startup time, and baseline memory usage of the final binary accordingly (by approx 200KB, 20ms and ?MB respectively).
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
