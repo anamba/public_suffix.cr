@@ -10,6 +10,10 @@ The API, README and specs are inspired by [publicsuffix-ruby](https://github.com
 
 Note that the public suffix dat file is embedded at compile time and parsed into a constant on startup. This will increase the size on disk, startup time, and baseline memory usage of the final binary accordingly (by approx 200KB, 20ms and ?MB respectively).
 
+## Versioning
+
+The patch level indicates the date the list was last updated.
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
