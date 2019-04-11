@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -sSL https://publicsuffix.org/list/public_suffix_list.dat > ./public_suffix_list.dat
