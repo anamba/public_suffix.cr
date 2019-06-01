@@ -81,3 +81,4 @@ No. <tt>public_suffix.cr</tt> comes with a bundled list. It does not make any HT
 ## Contributors
 
 - [Aaron Namba](https://github.com/anamba) - creator and maintainer
+- [Lucjan Suski](https://github.com/methyl)
