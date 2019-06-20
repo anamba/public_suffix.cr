@@ -2,6 +2,10 @@
 
 Note: Releases containing only list updates are not shown here.
 
+## v1.1.20190620
+
+* Crystal 0.29.0
+
 ## v1.1.20190601
 
 * List is now parsed into a hash for speedier querying (thanks [@methyl](https://github.com/methyl)!)
