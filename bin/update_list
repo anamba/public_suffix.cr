@@ -1,4 +1,8 @@
 #!/bin/bash
 
+today=`date +%Y%m%d | xargs`
+
 curl -sSL https://publicsuffix.org/list/public_suffix_list.dat > ./public_suffix_list.dat
-git status public_suffix_list.dat
+sed -i '' -E "s/(version: [0-9]+\.[0-9]+\.)[0-9]+/\1${today}/" shard.yml
+sed -i '' -E "s/(VERSION = \"[0-9]+\.[0-9]+\.)[0-9]+\"/\1${today}\"/" src/public_suffix.cr
+git status
