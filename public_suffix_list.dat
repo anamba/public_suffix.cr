@@ -4339,8 +4339,6 @@ niepce.museum
 norfolk.museum
 north.museum
 nrw.museum
-nuernberg.museum
-nuremberg.museum
 nyc.museum
 nyny.museum
 oceanographic.museum
@@ -7064,7 +7062,7 @@ org.zw
 
 // newGTLDs
 
-// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2019-08-02T16:08:27Z
+// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2019-08-30T19:02:57Z
 // This list is auto-generated, don't edit it manually.
 // aaa : 2015-02-26 American Automobile Association, Inc.
 aaa
@@ -7428,9 +7426,6 @@ bms
 
 // bmw : 2014-01-09 Bayerische Motoren Werke Aktiengesellschaft
 bmw
-
-// bnl : 2014-07-24 Banca Nazionale del Lavoro
-bnl
 
 // bnpparibas : 2014-05-29 BNP Paribas
 bnpparibas
@@ -7972,9 +7967,6 @@ duck
 // dunlop : 2015-07-02 The Goodyear Tire & Rubber Company
 dunlop
 
-// duns : 2015-08-06 The Dun & Bradstreet Corporation
-duns
-
 // dupont : 2015-06-25 E. I. du Pont de Nemours and Company
 dupont
 
@@ -8485,9 +8477,6 @@ homesense
 // honda : 2014-12-18 Honda Motor Co., Ltd.
 honda
 
-// honeywell : 2015-07-23 Honeywell GTLD LLC
-honeywell
-
 // horse : 2013-11-21 Minds + Machines Group Limited
 horse
 
@@ -8604,9 +8593,6 @@ ipiranga
 
 // irish : 2014-08-07 Binky Moon, LLC
 irish
-
-// iselect : 2015-02-11 iSelect Ltd
-iselect
 
 // ismaili : 2015-08-06 Fondation Aga Khan (Aga Khan Foundation)
 ismaili
@@ -8868,6 +8854,9 @@ lixil
 
 // llc : 2017-12-14 Afilias Limited
 llc
+
+// llp : 2019-08-26 Dot Registry LLC
+llp
 
 // loan : 2014-11-20 dot Loan Limited
 loan
@@ -9514,7 +9503,7 @@ reit
 // reliance : 2015-04-02 Reliance Industries Limited
 reliance
 
-// ren : 2013-12-12 Beijing Qianxiang Wangjing Technology Development Co., Ltd.
+// ren : 2013-12-12 ZDNS International Limited
 ren
 
 // rent : 2014-12-04 XYZ.COM LLC
@@ -9867,9 +9856,6 @@ staples
 
 // star : 2015-01-08 Star India Private Limited
 star
-
-// starhub : 2015-02-05 StarHub Ltd
-starhub
 
 // statebank : 2015-03-12 STATE BANK OF INDIA
 statebank
