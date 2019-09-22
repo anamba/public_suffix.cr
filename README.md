@@ -16,13 +16,13 @@ The patch level indicates the date the list was last updated.
 
 ## Installation
 
-1. Add the dependency to your `shard.yml`:
+1.  Add the dependency to your `shard.yml`:
 ```yaml
 dependencies:
   public_suffix:
     github: anamba/public_suffix.cr
 ```
-2. Run `shards install`
+2.  Run `shards install`
 
 ## Usage
 
@@ -50,8 +50,7 @@ The Public Suffix List is an initiative of the Mozilla Project, but is maintaine
 
 A "public suffix" is one under which Internet users can directly register names. Some examples of public suffixes are ".com", ".co.uk" and "pvt.k12.wy.us". The Public Suffix List is a list of all known public suffixes.
 
-
-## Why the Public Suffix List is better than any available Regular Expression parser?
+## Why the Public Suffix List is better than any available Regular Expression parser
 
 Previously, browsers used an algorithm which basically only denied setting wide-ranging cookies for top-level domains with no dots (e.g. com or org). However, this did not work for top-level domains where only third-level registrations are allowed (e.g. co.uk). In these cases, websites could set a cookie for co.uk which will be passed onto every website registered under co.uk.
 
@@ -61,10 +60,9 @@ Since there is no algorithmic method of finding the highest level at which a dom
 
 As well as being used to prevent cookies from being set where they shouldn't be, the list can also potentially be used for other applications where the registry controlled and privately controlled parts of a domain name need to be known, for example when grouping by top-level domains.
 
-Source: https://wiki.mozilla.org/Public_Suffix_List
+Source: <https://wiki.mozilla.org/Public_Suffix_List>
 
 Not convinced yet? Check out [this real world example](https://stackoverflow.com/q/288810/123527).
-
 
 ## Does <tt>public_suffix.cr</tt> make requests to Public Suffix List website?
 
@@ -72,13 +70,13 @@ No. <tt>public_suffix.cr</tt> comes with a bundled list. It does not make any HT
 
 ## Contributing
 
-1. Fork it (<https://github.com/anamba/public_suffix.cr/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1.  Fork it (<https://github.com/anamba/public_suffix.cr/fork>)
+2.  Create your feature branch (`git checkout -b my-new-feature`)
+3.  Commit your changes (`git commit -am 'Add some feature'`)
+4.  Push to the branch (`git push origin my-new-feature`)
+5.  Create a new Pull Request
 
 ## Contributors
 
-- [Aaron Namba](https://github.com/anamba) - creator and maintainer
-- [Lucjan Suski](https://github.com/methyl)
+-   [Aaron Namba](https://github.com/anamba) - creator and maintainer
+-   [Lucjan Suski](https://github.com/methyl)
