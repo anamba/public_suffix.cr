@@ -1368,7 +1368,7 @@ it
 gov.it
 edu.it
 // Reserved geo-names (regions and provinces):
-// http://www.nic.it/sites/default/files/docs/Regulation_assignation_v7.1.pdf
+// https://www.nic.it/sites/default/files/archivio/docs/Regulation_assignation_v7.1.pdf
 // Regions
 abr.it
 abruzzo.it
@@ -7078,7 +7078,7 @@ org.zw
 
 // newGTLDs
 
-// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2019-10-29T17:00:12Z
+// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2019-11-20T17:10:44Z
 // This list is auto-generated, don't edit it manually.
 // aaa : 2015-02-26 American Automobile Association, Inc.
 aaa
@@ -7590,9 +7590,6 @@ careers
 // cars : 2014-11-13 Cars Registry Limited
 cars
 
-// cartier : 2014-06-23 Richemont DNS Inc.
-cartier
-
 // casa : 2013-11-21 Minds + Machines Group Limited
 casa
 
@@ -7670,9 +7667,6 @@ christmas
 
 // chrome : 2014-07-24 Charleston Road Registry Inc.
 chrome
-
-// chrysler : 2015-07-30 FCA US LLC.
-chrysler
 
 // church : 2014-02-06 Binky Moon, LLC
 church
@@ -7953,9 +7947,6 @@ docs
 // doctor : 2016-06-02 Binky Moon, LLC
 doctor
 
-// dodge : 2015-07-30 FCA US LLC.
-dodge
-
 // dog : 2014-12-04 Binky Moon, LLC
 dog
 
@@ -8060,9 +8051,6 @@ eus
 
 // events : 2013-12-05 Binky Moon, LLC
 events
-
-// everbank : 2014-05-15 EverBank
-everbank
 
 // exchange : 2014-03-06 Binky Moon, LLC
 exchange
@@ -8748,9 +8736,6 @@ kyoto
 // lacaixa : 2014-01-09 Fundación Bancaria Caixa d’Estalvis i Pensions de Barcelona, “la Caixa”
 lacaixa
 
-// ladbrokes : 2015-08-06 LADBROKES INTERNATIONAL PLC
-ladbrokes
-
 // lamborghini : 2015-06-04 Automobili Lamborghini S.p.A.
 lamborghini
 
@@ -9063,9 +9048,6 @@ money
 // monster : 2015-09-11 XYZ.COM LLC
 monster
 
-// mopar : 2015-07-30 FCA US LLC.
-mopar
-
 // mormon : 2013-12-05 IRI Domain Management, LLC ("Applicant")
 mormon
 
@@ -9348,9 +9330,6 @@ photos
 // physio : 2014-05-01 PhysBiz Pty Ltd
 physio
 
-// piaget : 2014-10-16 Richemont DNS Inc.
-piaget
-
 // pics : 2013-11-14 Uniregistry, Corp.
 pics
 
@@ -9462,7 +9441,7 @@ qpon
 // quebec : 2013-12-19 PointQuébec Inc
 quebec
 
-// quest : 2015-03-26 Quest ION Limited
+// quest : 2015-03-26 XYZ.COM LLC
 quest
 
 // qvc : 2015-07-30 QVC, Inc.
@@ -9861,9 +9840,6 @@ spreadbetting
 // srl : 2015-05-07 InterNetX, Corp
 srl
 
-// srt : 2015-07-30 FCA US LLC.
-srt
-
 // stada : 2014-11-13 STADA Arzneimittel AG
 stada
 
@@ -10125,9 +10101,6 @@ ubank
 // ubs : 2014-12-11 UBS AG
 ubs
 
-// uconnect : 2015-07-30 FCA US LLC.
-uconnect
-
 // unicom : 2015-10-15 China United Network Communications Corporation Limited
 unicom
 
@@ -10247,9 +10220,6 @@ wang
 
 // wanggou : 2014-12-18 Amazon Registry Services, Inc.
 wanggou
-
-// warman : 2015-06-18 Weir Group IP Limited
-warman
 
 // watch : 2013-11-14 Binky Moon, LLC
 watch
@@ -10844,12 +10814,6 @@ sweetpepper.org
 // ASUSTOR Inc. : http://www.asustor.com
 // Submitted by Vincent Tseng <vincenttseng@asustor.com>
 myasustor.com
-
-// Automattic Inc. : https://automattic.com/
-// Submitted by Alex Concha <alex.concha@automattic.com>
-go-vip.co
-go-vip.net
-wpcomstaging.com
 
 // AVM : https://avm.de
 // Submitted by Andreas Weise <a.weise@avm.de>
@@ -12667,6 +12631,10 @@ logoip.com
 // schokokeks.org GbR : https://schokokeks.org/
 // Submitted by Hanno Böck <hanno@schokokeks.org>
 schokokeks.net
+
+// Scottish Government: https://www.gov.scot
+// Submitted by Martin Ellis <martin.ellis@gov.scot>
+gov.scot
 
 // Scry Security : http://www.scrysec.com
 // Submitted by Shante Adam <shante@skyhat.io>
