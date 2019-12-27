@@ -1,9 +1,9 @@
 name: public_suffix
-version: 1.1.20191211
+version: 1.1.20191227
 
 authors:
   - Aaron Namba <aaron@aaronnamba.com>
 
-crystal: 0.31.1
+crystal: 0.32.1
 
 license: MIT
