@@ -4,6 +4,14 @@ Note: Releases containing only list updates are not shown here.
 
 ## v1.1.20190620
 
+*   Crystal 1.0.0
+
+## v1.1.20190807
+
+*   Crystal 0.30.0
+
+## v1.1.20190620
+
 *   Crystal 0.29.0
 
 ## v1.1.20190601

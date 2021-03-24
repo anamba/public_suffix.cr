@@ -7125,7 +7125,7 @@ org.zw
 
 // newGTLDs
 
-// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2021-02-20T20:31:36Z
+// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2021-03-04T15:37:38Z
 // This list is auto-generated, don't edit it manually.
 // aaa : 2015-02-26 American Automobile Association, Inc.
 aaa
@@ -10217,7 +10217,7 @@ wanggou
 // watch : 2013-11-14 Binky Moon, LLC
 watch
 
-// watches : 2014-12-22 Richemont DNS Inc.
+// watches : 2014-12-22 Afilias Limited
 watches
 
 // weather : 2015-01-08 International Business Machines Corporation
@@ -10876,6 +10876,10 @@ of.je
 // Submitted by Tibor Halter <thalter@boomla.com>
 boomla.net
 
+// Boutir : https://www.boutir.com
+// Submitted by Eric Ng Ka Ka <ngkaka@boutir.com>
+boutir.com
+
 // Boxfuse : https://boxfuse.com
 // Submitted by Axel Fontaine <axel@boxfuse.com>
 boxfuse.io
@@ -10898,6 +10902,10 @@ browsersafetymark.io
 uk0.bigv.io
 dh.bytemark.co.uk
 vm.bytemark.co.uk
+
+// Caf.js Labs LLC : https://www.cafjs.com
+// Submitted by Antonio Lain <antlai@cafjs.com>
+cafjs.com
 
 // callidomus : https://www.callidomus.com/
 // Submitted by Marcus Popp <admin@callidomus.com>
@@ -10999,9 +11007,11 @@ virtueeldomein.nl
 cleverapps.io
 
 // Clerk : https://www.clerk.dev
-// Submitted by Colin Sidoti <colin@clerk.dev>
+// Submitted by Colin Sidoti <systems@clerk.dev>
 *.lcl.dev
+*.lclstage.dev
 *.stg.dev
+*.stgstage.dev
 
 // Clic2000 : https://clic2000.fr
 // Submitted by Mathilde Blanchemanche <mathilde@clic2000.fr>
@@ -11126,6 +11136,11 @@ cupcake.is
 // Curv UG : https://curv-labs.de/
 // Submitted by Marvin Wiesner <Marvin@curv-labs.de>
 curv.dev
+
+// Curvegrid Inc. : https://www.curvegrid.com/
+// Submitted by Pierre Rousset <security@curvegrid.com>
+multibaas.app
+multibaas.com
 
 // Customer OCI - Oracle Dyn https://cloud.oracle.com/home https://dyn.com/dns/
 // Submitted by Gregory Drake <support@dyn.com>
@@ -11936,7 +11951,7 @@ glitch.me
 lolipop.io
 
 // GOV.UK Platform as a Service : https://www.cloud.service.gov.uk/
-// Submitted by Tom Whitwell <tom.whitwell@digital.cabinet-office.gov.uk>
+// Submitted by Tom Whitwell <gov-uk-paas-support@digital.cabinet-office.gov.uk>
 cloudapps.digital
 london.cloudapps.digital
 
@@ -12493,6 +12508,10 @@ mcdir.ru
 mcpre.ru
 vps.mcdir.ru
 
+// Medicom Health : https://medicomhealth.com
+// Submitted by Michael Olson <molson@medicomhealth.com>
+hra.health
+
 // Memset hosting : https://www.memset.com
 // Submitted by Tom Whitwell <domains@memset.com>
 miniserver.com
@@ -12897,6 +12916,10 @@ pagefrontapp.com
 // Submitted by Yann Guichard <yann@pagexl.com>
 pagexl.com
 
+// Paywhirl, Inc : https://paywhirl.com/
+// Submitted by Daniel Netzer <dan@paywhirl.com>
+*.paywhirl.com
+
 // pcarrier.ca Software Inc: https://pcarrier.ca/
 // Submitted by Pierre Carrier <pc@rrier.ca>
 bar0.net
@@ -12992,6 +13015,11 @@ byen.site
 // Submitted by Kor Nielsen <kor@pubtls.org>
 pubtls.org
 
+// PythonAnywhere LLP: https://www.pythonanywhere.com
+// Submitted by Giles Thomas <giles@pythonanywhere.com>
+*.pythonanywhere.com
+*.eu.pythonanywhere.com
+
 // QOTO, Org.
 // Submitted by Jeffrey Phillips Freeman <jeffrey.freeman@qoto.org>
 qoto.io
@@ -13003,6 +13031,10 @@ qualifioapp.com
 // QuickBackend: https://www.quickbackend.com
 // Submitted by Dani Biro <dani@pymet.com>
 qbuser.com
+
+// Rad Web Hosting: https://radwebhosting.com
+// Submitted by Scott Claeys <s.claeys@radwebhosting.com>
+cloudsite.builders
 
 // Redstar Consultants : https://www.redstarconsultants.com/
 // Submitted by Jons Slemmer <jons@redstarconsultants.com>
@@ -13103,6 +13135,7 @@ schokokeks.net
 // Scottish Government: https://www.gov.scot
 // Submitted by Martin Ellis <martin.ellis@gov.scot>
 gov.scot
+service.gov.scot
 
 // Scry Security : http://www.scrysec.com
 // Submitted by Shante Adam <shante@skyhat.io>
@@ -13129,11 +13162,20 @@ seidat.net
 // Submitted by Felix Mönckemeyer <f.moenckemeyer@senseering.de>
 senseering.net
 
+// Service Magnet : https://myservicemagnet.com
+// Submitted by Dave Sanders <dave@myservicemagnet.com>
+magnet.page
+
 // Service Online LLC : http://drs.ua/
 // Submitted by Serhii Bulakh <support@drs.ua>
 biz.ua
 co.ua
 pp.ua
+
+// Shift Crypto AG : https://shiftcrypto.ch
+// Submitted by alex <alex@shiftcrypto.ch>
+shiftcrypto.dev
+shiftcrypto.io
 
 // ShiftEdit : https://shiftedit.net/
 // Submitted by Adam Jimenez <adam@shiftcreate.com>
@@ -13184,6 +13226,10 @@ small-web.org
 // Snowplow Analytics : https://snowplowanalytics.com/
 // Submitted by Ian Streeter <ian@snowplowanalytics.com>
 try-snowplow.com
+
+// SourceHut : https://sourcehut.org
+// Submitted by Drew DeVault <sir@cmpwn.com>
+srht.site
 
 // Stackhero : https://www.stackhero.io
 // Submitted by Adrien Gillon <adrien+public-suffix-list@stackhero.io>
