@@ -734,7 +734,6 @@ gouv.ci
 // cl : https://www.nic.cl
 // Confirmed by .CL registry <hsalgado@nic.cl>
 cl
-aprendemas.cl
 co.cl
 gob.cl
 gov.cl
@@ -7126,7 +7125,7 @@ org.zw
 
 // newGTLDs
 
-// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2021-04-22T15:17:15Z
+// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2021-06-26T15:13:33Z
 // This list is auto-generated, don't edit it manually.
 // aaa : 2015-02-26 American Automobile Association, Inc.
 aaa
@@ -7545,7 +7544,7 @@ bridgestone
 // broadway : 2014-12-22 Celebrate Broadway, Inc.
 broadway
 
-// broker : 2014-12-11 Dotbroker Registry Limited
+// broker : 2014-12-11 Dog Beach, LLC
 broker
 
 // brother : 2015-01-29 Brother Industries, Ltd.
@@ -8226,7 +8225,7 @@ football
 // ford : 2014-11-13 Ford Motor Company
 ford
 
-// forex : 2014-12-11 Dotforex Registry Limited
+// forex : 2014-12-11 Dog Beach, LLC
 forex
 
 // forsale : 2014-05-22 Dog Beach, LLC
@@ -8964,7 +8963,7 @@ market
 // marketing : 2013-11-07 Binky Moon, LLC
 marketing
 
-// markets : 2014-12-11 Dotmarkets Registry Limited
+// markets : 2014-12-11 Dog Beach, LLC
 markets
 
 // marriott : 2014-10-09 Marriott Worldwide Corporation
@@ -9092,6 +9091,9 @@ mtn
 
 // mtr : 2015-03-12 MTR Corporation Limited
 mtr
+
+// music : 2021-05-04 DotMusic Limited
+music
 
 // mutual : 2015-04-02 Northwestern Mutual MU TLD Registry, LLC
 mutual
@@ -10038,7 +10040,7 @@ toys
 // trade : 2014-01-23 Elite Registry Limited
 trade
 
-// trading : 2014-12-11 Dottrading Registry Limited
+// trading : 2014-12-11 Dog Beach, LLC
 trading
 
 // training : 2013-11-07 Binky Moon, LLC
@@ -10797,6 +10799,10 @@ apigee.io
 appspacehosted.com
 appspaceusercontent.com
 
+// Appudo UG (haftungsbeschränkt) : https://www.appudo.com
+// Submitted by Alexander Hochbaum <admin@appudo.com>
+appudo.net
+
 // Aptible : https://www.aptible.com/
 // Submitted by Thomas Orozco <thomas@aptible.com>
 on-aptible.com
@@ -10825,6 +10831,10 @@ myasustor.com
 // AVM : https://avm.de
 // Submitted by Andreas Weise <a.weise@avm.de>
 myfritz.net
+
+// AVStack Pte. Ltd. : https://avstack.io
+// Submitted by Jasper Hugo <jasper@avstack.io>
+onavstack.net
 
 // AW AdvisorWebsites.com Software Inc : https://advisorwebsites.com
 // Submitted by James Kennedy <domains@advisorwebsites.com>
@@ -10866,6 +10876,10 @@ blackbaudcdn.net
 // Submitted by Luke Bratch <luke@bratch.co.uk>
 of.je
 
+// Blue Bite, LLC : https://bluebite.com
+// Submitted by Joshua Weiss <admin.engineering@bluebite.com>
+bluebite.io
+
 // Boomla : https://boomla.com
 // Submitted by Tibor Halter <thalter@boomla.com>
 boomla.net
@@ -10886,6 +10900,10 @@ bplaced.de
 square7.de
 bplaced.net
 square7.net
+
+// Brendly : https://brendly.rs
+// Submitted by Dusan Radovanovic <dusan.radovanovic@brendly.rs>
+shop.brendly.rs
 
 // BrowserSafetyMark
 // Submitted by Dave Tharp <browsersafetymark.io@quicinc.com>
@@ -11130,11 +11148,6 @@ cupcake.is
 // Submitted by Marvin Wiesner <Marvin@curv-labs.de>
 curv.dev
 
-// Curvegrid Inc. : https://www.curvegrid.com/
-// Submitted by Pierre Rousset <security@curvegrid.com>
-multibaas.app
-multibaas.com
-
 // Customer OCI - Oracle Dyn https://cloud.oracle.com/home https://dyn.com/dns/
 // Submitted by Gregory Drake <support@dyn.com>
 // Note: This is intended to also include customer-oci.com due to wildcards implicitly including the current label
@@ -11192,6 +11205,10 @@ builtwithdark.com
 // Datawire, Inc : https://www.datawire.io
 // Submitted by Richard Li <secalert@datawire.io>
 edgestack.me
+
+// DDNS5 : https://ddns5.com
+// Submitted by Cameron Elliott <cameron@cameronelliott.com>
+ddns5.com
 
 // Debian : https://www.debian.org/
 // Submitted by Peter Palfrader / Debian Sysadmin Team <dsa-publicsuffixlist@debian.org>
@@ -11864,12 +11881,16 @@ flynnhosting.net
 // Forgerock : https://www.forgerock.com
 // Submitted by Roderick Parr <roderick.parr@forgerock.com>
 forgeblocks.com
-*.id.forgerock.io
+id.forgerock.io
 
 // Framer : https://www.framer.com
 // Submitted by Koen Rouwhorst <koenrh@framer.com>
 framer.app
 framercanvas.com
+
+// Frusky MEDIA&PR : https://www.frusky.de
+// Submitted by Victor Pupynin <hallo@frusky.de>
+*.frusky.de
 
 // RavPage : https://www.ravpage.co.il
 // Submitted by Roni Horowitz <roni@responder.co.il>
@@ -11938,7 +11959,6 @@ gsj.bz
 // GitHub, Inc.
 // Submitted by Patrick Toomey <security@github.com>
 githubusercontent.com
-github.dev
 githubpreview.dev
 github.io
 
@@ -12348,6 +12368,10 @@ myjino.ru
 *.spectrum.myjino.ru
 *.vps.myjino.ru
 
+// Jotelulu S.L. : https://jotelulu.com
+// Submitted by Daniel Fariña <ingenieria@jotelulu.com>
+jotelulu.cloud
+
 // Joyent : https://www.joyent.com/
 // Submitted by Brian Bennett <brian.bennett@joyent.com>
 *.triton.zone
@@ -12526,6 +12550,11 @@ mcdir.me
 mcdir.ru
 mcpre.ru
 vps.mcdir.ru
+
+// Mediatech : https://mediatech.by
+// Submitted by Evgeniy Kozhuhovskiy <ugenk@mediatech.by>
+mediatech.by
+mediatech.dev
 
 // Medicom Health : https://medicomhealth.com
 // Submitted by Michael Olson <molson@medicomhealth.com>
@@ -12981,8 +13010,6 @@ perspecta.cloud
 // PE Ulyanov Kirill Sergeevich : https://airy.host
 // Submitted by Kirill Ulyanov <k.ulyanov@airy.host>
 lk3.ru
-ra-ru.ru
-zsew.ru
 
 // Planet-Work : https://www.planet-work.com/
 // Submitted by Frédéric VANNIÈRE <f.vanniere@planet-work.com>
@@ -13016,6 +13043,13 @@ dyn53.io
 // Positive Codes Technology Company : http://co.bn/faq.html
 // Submitted by Zulfais <pc@co.bn>
 co.bn
+
+// Postman, Inc : https://postman.com
+// Submitted by Rahul Dhawan <security@postman.com>
+postman-echo.com
+pstmn.io
+mock.pstmn.io
+httpbin.org
 
 // prgmr.com : https://prgmr.com/
 // Submitted by Sarah Newman <owner@prgmr.com>
@@ -13147,6 +13181,10 @@ hzc.io
 wellbeingzone.eu
 wellbeingzone.co.uk
 
+// Rico Developments Limited : https://adimo.co
+// Submitted by Colin Brown <hello@adimo.co>
+adimo.co.uk
+
 // Rochester Institute of Technology : http://www.rit.edu/
 // Submitted by Jennifer Herting <jchits@rit.edu>
 git-pages.rit.edu
@@ -13206,6 +13244,10 @@ seidat.net
 // Senseering GmbH : https://www.senseering.de
 // Submitted by Felix Mönckemeyer <f.moenckemeyer@senseering.de>
 senseering.net
+
+// Sendmsg: https://www.sendmsg.co.il
+// Submitted by Assaf Stern <domains@comstar.co.il>
+minisite.ms
 
 // Service Magnet : https://myservicemagnet.com
 // Submitted by Dave Sanders <dave@myservicemagnet.com>
@@ -13279,6 +13321,10 @@ srht.site
 // Stackhero : https://www.stackhero.io
 // Submitted by Adrien Gillon <adrien+public-suffix-list@stackhero.io>
 stackhero-network.com
+
+// Staclar : https://staclar.com
+// Submitted by Matthias Merkel <matthias.merkel@staclar.com>
+novecore.site
 
 // staticland : https://static.land
 // Submitted by Seth Vincent <sethvincent@gmail.com>
