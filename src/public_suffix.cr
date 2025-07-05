@@ -4,7 +4,7 @@ require "./public_suffix/list"
 require "./public_suffix/rule"
 
 module PublicSuffix
-  VERSION = "1.1.20241223"
+  VERSION = "1.1.20250705"
 
   class DomainNotAllowed < Exception
   end
